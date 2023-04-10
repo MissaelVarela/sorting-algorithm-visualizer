@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "SortingAlgorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/SortingAlgorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SortingAlgorithms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SortingAlgorithms/1.0.0": {
+      "type": "project",
+      "path": "../SortingAlgorithms/SortingAlgorithms.csproj",
+      "msbuildProject": "../SortingAlgorithms/SortingAlgorithms.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "SortingAlgorithms >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Missael\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Missael\\Documents\\Visual Studio 2022\\Projects 2022\\SortingAlgorithmVisualizer\\Visualizer\\Visualizer.csproj",
+      "projectName": "Visualizer",
+      "projectPath": "C:\\Users\\Missael\\Documents\\Visual Studio 2022\\Projects 2022\\SortingAlgorithmVisualizer\\Visualizer\\Visualizer.csproj",
+      "packagesPath": "C:\\Users\\Missael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Missael\\Documents\\Visual Studio 2022\\Projects 2022\\SortingAlgorithmVisualizer\\Visualizer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Missael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\Missael\\Documents\\Visual Studio 2022\\Projects 2022\\SortingAlgorithmVisualizer\\SortingAlgorithms\\SortingAlgorithms.csproj": {
+              "projectPath": "C:\\Users\\Missael\\Documents\\Visual Studio 2022\\Projects 2022\\SortingAlgorithmVisualizer\\SortingAlgorithms\\SortingAlgorithms.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

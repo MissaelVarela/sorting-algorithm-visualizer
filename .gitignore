@@ -1,0 +1,8 @@
+
+.vs
+
+*.sln
+
+# Ingnorando proyecto de pruebas y otros proyectos
+Testing
+SortingMethodsVisualizer
